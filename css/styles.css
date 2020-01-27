@@ -1,0 +1,314 @@
+body{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+.head{
+  height: 80px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  width: 1440px;
+}
+
+.INSURE{
+  position: absolute;
+  left: 140px;
+  padding-left: 28px;
+  margin-top: 30px;
+}
+
+.Links{
+
+  position: absolute;
+  right: 344px;
+  margin-top: 35px;
+  font-size: 16px;
+}
+
+.Account,.HWW,.Blog{
+  display: inline-block;
+  margin-left: 26px;
+  text-decoration: none;
+  color: rgb(136,134,137);
+}
+.Account:hover, .HWW:hover, .Blog:hover{
+  color: black;
+}
+
+.button{
+  position: absolute;
+  margin-top: 36px;
+  right: 165px;
+}
+.testbutton {
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  font-size: 13px;
+  padding: 10px 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  text-decoration: none;
+}
+.testbutton:hover {
+  color: #FFFFFF;
+  background: rgb(29,27,32);
+}
+
+.Intro{
+  height: 600px;
+  background-color: #2c2640;
+  position: relative;
+  width: 1440px;
+}
+
+.intro{
+  position: absolute;
+  top: 105px;
+  right: 165px;
+  z-index: 2;
+}
+
+.intro-right-pattern{
+  position: absolute;
+  right: 0;
+  bottom: 88px;
+  z-index: 3;
+}
+
+.intro-bar{
+  width: 150px;
+  position: absolute;
+  left: 168px;
+  top:105px;
+  color: rgb(255,251,255);
+}
+
+.h{
+  width: 480px;
+  font-size: 65px;
+  position: absolute;
+  top: 177px;
+  left: 168px;
+  color: rgb(255,251,255);
+  line-height: .80;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+}
+
+.h-desc{
+  width: 550px;
+  font-size: 16px;
+  position: absolute;
+  left: 168px;
+  top: 330px;
+  color: rgb(255,251,255);
+  line-height: 1.5;
+}
+
+.button2 {
+  font-family: 'Karla', sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: 1px solid #FFFFFF;
+  background: #2c2640;
+  text-decoration: none;
+  position: absolute;
+  left: 168px;
+  bottom: 127px;
+}
+.button2:hover {
+  color: #2c2640;
+  background: #FFFFFF;
+}
+
+.intro-left-pattern{
+  position: absolute;
+  top: 430px;
+  z-index: 2;
+}
+
+.body{
+  height: 1340px;
+  position: relative;
+  width: 1440px;
+  background-color: white;
+}
+
+.body-bar{
+  width: 150px;
+  position: absolute;
+  left: 168px;
+  color: #2c2640;
+  top:305px;
+}
+
+.body-heading{
+  font-family: 'DM Serif Display', serif;
+  font-size: 65px;
+  position: absolute;
+  top: 380px;
+  left: 168px;
+  color: rgb(43,41,46);
+}
+
+.SP{
+  height: 240px;
+  width: 330px;
+  position: absolute;
+  top: 530px;
+  left:168px;
+}
+
+h2{
+  font-family: 'DM Serif Display', serif;
+  color: rgb(43,41,46);
+}
+p{
+  color: rgb(104, 104, 104);
+  line-height: 1.75;
+}
+.AP{
+  height: 240px;
+  width: 350px;
+  position: absolute;
+  left: 548px;
+  top: 530px;
+}
+.PF{
+  height: 240px;
+  width: 340px;
+  position: absolute;
+  left: 928px;
+  top: 530px;
+}
+.Know-More{
+  height: 250px;
+  width:1110px;
+  position: absolute;
+  left: 168px;
+  bottom: 150px;
+  background-color: #2c2640;
+}
+
+.KM-heading{
+  width: 480px;
+  font-size: 55px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  color: rgb(255,251,255);
+  line-height: .9;
+  font-family: 'DM Serif Display', serif;
+
+}
+
+.hww-pattern{
+  position: absolute;
+  right: 0;
+}
+.btn2 {
+  font-family: 'Karla', sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: 1px solid #FFFFFF;
+  background: #2c2640;
+  text-decoration: none;
+  position: absolute;
+  right: 80px;
+  bottom: 105px;
+
+}
+.btn2:hover {
+  color: #2c2640;
+  background: #FFFFFF;
+
+}
+
+.footer{
+  height: 390px;
+  width: 1440px;
+  background-color: rgb(250,250,250);
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+}
+.footer-logo{
+  position: absolute;
+  left: 168px;
+  top: 70px;
+}
+
+.icons{
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  position: absolute;
+  right: 168px;
+  top: 70px;
+}
+.tw,.insta,.pt{
+  margin-left: 10px;
+}
+.footer-bar{
+  width: 1104px;
+  position: absolute;
+  top:120px;
+  color: rgb(255,251,255);
+  left: 168px;
+
+}
+.OC{
+  width: 112px;
+  height: 155px;
+  color: rgb(29,27,32);
+  position: absolute;
+  left: 168px;
+  bottom: 80px;
+  line-height: 2;
+}
+
+.HM{
+  width: 112px;
+  height: 155px;
+  color: rgb(29,27,32);
+  position: absolute;
+  left: 450px;
+  bottom: 80px;
+  line-height: 2;
+}
+.CON{
+  width: 112px;
+  height: 155px;
+  color: rgb(29,27,32);
+  position: absolute;
+  left: 736px;
+  bottom: 80px;
+  line-height: 2;
+}
+.OTH{
+  width: 112px;
+  height: 155px;
+  color: rgb(29,27,32);
+  position: absolute;
+  left: 1022px;
+  bottom: 80px;
+  line-height: 2;
+
+}
+.a1{
+  text-decoration: none;
+  color: rgb(43,41,46);
+  font-weight: bold;
+  font-size: 13px;
+}
+.a1:hover{
+  text-decoration: underline;
+}
+.attribution{
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
